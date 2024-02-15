@@ -3,7 +3,7 @@ import MaxWidthWrapper from "../../../components/MaxWidthWrapper";
 const Section04 = () => {
 	return (
 		<MaxWidthWrapper>
-			<div className="relative flex flex-col md:flex-row justify-center max-w-4xl mx-auto md:gap-20 md:space-x-0 md:space-y-0.5 py-20 md:py-40 font-maisonMono">
+			<div className="relative flex flex-col md:flex-row justify-center max-w-4xl mx-auto md:gap-20 md:space-x-0 md:space-y-0.5 pb-[200px] md:pb-[280px] font-maisonMono">
 				<div className="text-center md:text-[24px] text-[15px] text-[#FFD706]">
 					Brand Identity
 					<br /> Graphic Design

@@ -1,9 +1,10 @@
 import MaxWidthWrapper from "../../../components/MaxWidthWrapper";
 
+//py-20 md:py-40 md:pt-50
 const Section02 = () => {
 	return (
 		<MaxWidthWrapper>
-			<div className="relative flex flex-col justify-center space-y-12 max-w-full md:max-w-3xl mx-auto py-20 md:py-40 md:pt-50 font-maisonMono">
+			<div className="relative flex flex-col justify-center space-y-12 max-w-xs md:max-w-3xl mx-auto pt-[140px] md:pt-[295px] pb-[200px] md:pb-[280px]  font-maisonMono">
 				<div className="text-center text-[15px] md:text-[24px] leading-tight">
 					Understanding what success looks like when it comes to strategy, creativity, and media is
 					the future of every brand. The problem is most
