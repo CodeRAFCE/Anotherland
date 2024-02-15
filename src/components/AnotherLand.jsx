@@ -11,7 +11,7 @@ const AnotherLand = ({isFooter}) => {
 					</span>
 				)}
 			</h1> */}
-			<div className="flex flex-col items-center justify-center space-y-5 md:space-y-8">
+			<div className="flex flex-col items-center justify-center space-y-4 md:space-y-8">
 				<img
 					src={"/assets/svgs/ANOTHERLAND_V3.svg"}
 					alt="ANOTHERLAND_LOGO"
