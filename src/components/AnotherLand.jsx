@@ -16,7 +16,7 @@ const AnotherLand = ({isFooter}) => {
 					src={"/assets/svgs/ANOTHERLAND_V3.svg"}
 					alt="ANOTHERLAND_LOGO"
 					loading="lazy"
-					className="md:h-full md:w-[85%] w-96"
+					className="md:h-full md:w-[85%] w-[90%]"
 				/>
 
 				{isFooter ? null : (

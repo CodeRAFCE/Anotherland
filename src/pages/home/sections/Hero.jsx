@@ -8,7 +8,7 @@ const Hero = () => {
 				<AnotherLand />
 
 				<div className="relative flex flex-col">
-					<div className="w-full md:h-[850px] h-[250px]">
+					<div className="w-full md:h-[850px] h-[250px] relative z-50">
 						<img
 							src="/assets/gifs/hero.gif"
 							alt="image_01"
