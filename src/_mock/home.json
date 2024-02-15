@@ -1,0 +1,12 @@
+{
+	"hero": {
+		"logo": "/assets/svgs/ANOTHERLAND.svg",
+		"images": [
+			{
+				"alt": "image_01",
+				"src": "/assets/images/anotherland_image_01",
+				"className": ""
+			}
+		]
+	}
+}
