@@ -8,7 +8,10 @@ const Footer = () => {
 				<div className="flex flex-col space-y-2 md:space-y-0.5 text-center font-maisonMono text-[15px] md:text-[24px] pb-2 md:pb-0">
 					<span>Interested?</span>
 					<span>
-						Email us at <a href="mailto:">hello@anotherland.com</a>
+						Email us at{" "}
+						<a href="mailto:" className="md:inline block">
+							hello@anotherland.com
+						</a>
 					</span>
 				</div>
 
