@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				compacta: ["Compacta D OT Light Compress", "sans-serif"],
+				compactaLc: ["Compacta D OT Light Compress", "sans-serif"],
+				compacta: ["Compacta D OT", "sans-serif"],
 				modernGothic: ["modern-gothic", "sans-serif"],
 				maisonMono: ["Maison Neue", "sans-serif"],
 				maisonBook: ["Maison Neue Book", "sans-serif"],

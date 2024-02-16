@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Compacta D OT LIght Compress";
-  src: url("/fonts/compactadot_lightcompress.otf");
+  font-family: "Compacta D OT";
+  src: url("/fonts/CompactaDOT-Regu.otf");
   font-size: 24px;
   line-height: 1;
   letter-spacing: 0;
@@ -23,6 +23,11 @@
 @font-face {
   font-family: "Maison Neue Book";
   src: url("/fonts/FontsFree-Net-Maison-Neue-Book.ttf");
+}
+
+@font-face {
+  font-family: "Compacta D OT Light Compress";
+  src: url("/fonts/compactadot_lightcompress.woff");
 }
 
 

@@ -19,8 +19,10 @@ const AnotherLand = ({isFooter}) => {
 					className="md:h-full md:w-[85%] w-[90%]"
 				/>
 
+				{/* <h1 className="text-[100px] m-0 md:text-[72px] uppercase font-compactaLc">ANOTHERLAND</h1> */}
+
 				{isFooter ? null : (
-					<div className="uppercase text-[15px] md:text-[24px] font-maisonMono block tracking-normal">
+					<div className="uppercase text-[11px] md:text-[24px] font-maisonMono block tracking-normal">
 						marketing and creative agency
 					</div>
 				)}
