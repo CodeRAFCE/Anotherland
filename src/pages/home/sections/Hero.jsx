@@ -4,7 +4,7 @@ import MaxWidthWrapper from "../../../components/MaxWidthWrapper";
 const Hero = () => {
 	return (
 		<MaxWidthWrapper>
-			<div className="relative flex flex-col items-center md:pt-6 pt-[85px] ">
+			<div className="relative flex flex-col space-y-4 items-center md:pt-[62px] pt-[85px] ">
 				<AnotherLand />
 
 				<div className="relative flex flex-col">
