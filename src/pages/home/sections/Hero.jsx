@@ -4,16 +4,16 @@ import MaxWidthWrapper from "../../../components/MaxWidthWrapper";
 const Hero = () => {
 	return (
 		<MaxWidthWrapper>
-			<div className="relative flex flex-col items-center md:pt-6 pt-[85px] overflow-hidden">
+			<div className="relative flex flex-col items-center md:pt-6 pt-[85px] ">
 				<AnotherLand />
 
 				<div className="relative flex flex-col">
-					<div className="w-full md:h-[850px] h-[250px] relative z-50">
+					<div className="container w-full h-full flex items-center justify-center">
 						<img
 							src="/assets/gifs/hero.gif"
 							alt="image_01"
 							loading="lazy"
-							className="lg:max-w-[2000px] md:max-w-full max-w-[510px] object-cover md:-m-8"
+							className="object-fill md:-m-6"
 						/>
 					</div>
 					{/* <img
