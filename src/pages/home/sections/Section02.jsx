@@ -4,7 +4,7 @@ import MaxWidthWrapper from "../../../components/MaxWidthWrapper";
 const Section02 = () => {
 	return (
 		<MaxWidthWrapper>
-			<div className="relative flex flex-col justify-center space-y-12 max-w-full md:max-w-3xl mx-auto pt-[222px] md:pt-[300px] font-maisonMono">
+			<div className="relative flex flex-col justify-center space-y-12 max-w-full md:max-w-3xl mx-auto pt-[137px] md:pt-[300px] font-maisonMono">
 				<div className="text-center text-[15px] md:text-[24px] tracking-[-0.48px] hidden md:block">
 					Understanding what success looks like when it <br />
 					comes to strategy, creativity, and media is <br />
