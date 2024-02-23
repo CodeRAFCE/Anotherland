@@ -8,12 +8,12 @@ const Hero = () => {
 				<AnotherLand />
 
 				<div className="relative flex flex-col">
-					<div className="w-full h-full items-center justify-center hidden xl:flex">
+					<div className="max-w-full w-full h-full items-center justify-center hidden xl:flex">
 						<img
 							src="/assets/gifs/hero.gif"
 							alt="image_01"
 							loading="lazy"
-							className="object-fill md:-m-6"
+							className="object-fill md:-m-3"
 						/>
 					</div>
 
@@ -22,7 +22,7 @@ const Hero = () => {
 							src="/assets/gifs/hero.gif"
 							alt="image_01"
 							loading="lazy"
-							className="object-fill md:-m-6"
+							className="object-fill md:-m-3"
 						/>
 					</div>
 					{/* <img
