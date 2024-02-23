@@ -26,18 +26,18 @@ const Section02 = () => {
 				</div>
 
 				{/* MOBILE SCREEN */}
-				<div className="text-center text-[14.6px] leading-5 tracking-[-0.3px] block md:hidden">
+				<div className="text-center text-[15px] leading-5 tracking-[-0.3px] block md:hidden">
 					Understanding what success looks like when it comes to strategy, creativity, and media is
 					the future of every brand. The problem is most
 					<br />
 					<span className="text-[#FFD706]">brands don&apos;t have that answer.</span>
 				</div>
-				<div className="text-center text-[14.6px] leading-5 tracking-[-0.3px] block md:hidden">
+				<div className="text-center text-[15px] leading-5 tracking-[-0.3px] block md:hidden">
 					We navigate the marketing and creative landscapes with a unique blend of experience and
 					expertise, so every client has an experience that leaves them knowing they&apos;re in good
 					hands.
 				</div>
-				<div className="text-center text-[14.6px] leading-5 tracking-[-0.3px] block md:hidden">
+				<div className="text-center text-[15px] leading-5 tracking-[-0.3px] block md:hidden">
 					Anotherland offers a different way to succeed at marketing and creativity. And for the
 					right brands, a better way.
 				</div>
