@@ -9,7 +9,7 @@ const Footer = () => {
 					<span>Interested?</span>
 					<span>
 						Email us at{" "}
-						<a href="mailto:" className="md:inline block">
+						<a href="mailto:hello@anotherland.com" className="md:inline block">
 							hello@anotherland.com
 						</a>
 					</span>
