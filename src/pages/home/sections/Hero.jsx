@@ -9,21 +9,35 @@ const Hero = () => {
 
 				<div className="relative flex flex-col">
 					<div className="max-w-full w-full h-full items-center justify-center hidden xl:flex">
-						<img
+						{/* <img
 							src="/assets/gifs/hero.gif"
 							alt="image_01"
 							loading="lazy"
 							className="object-fill md:-m-3"
-						/>
+						/> */}
+						<video
+							autoPlay
+							loop
+							poster="/assets/images/anotherland_image_01.webp"
+							className="w-full h-full"
+							src="/assets/hero.mp4"
+							type="video/mp4"
+							preload="auto"
+							muted="true"
+						></video>
 					</div>
 
 					<div className="container w-full h-full flex items-center justify-center xl:hidden">
-						<img
-							src="/assets/gifs/hero.gif"
-							alt="image_01"
-							loading="lazy"
-							className="object-fill md:-m-3"
-						/>
+						<video
+							autoPlay
+							loop
+							poster="/assets/images/anotherland_image_01.webp"
+							className="w-full"
+							src="/assets/hero.mp4"
+							type="video/mp4"
+							preload="auto"
+							muted="true"
+						></video>
 					</div>
 					{/* <img
 						src="/assets/images/anotherland_image_01.png"
