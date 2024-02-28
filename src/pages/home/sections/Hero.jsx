@@ -15,15 +15,7 @@ const Hero = () => {
 							loading="lazy"
 							className="object-fill md:-m-3"
 						/> */}
-						<video
-							autoPlay
-							loop
-							poster="/assets/images/thumbnail.webp"
-							className="w-full h-full"
-							preload="auto"
-							muted="true"
-							playsInline
-						>
+						<video autoPlay loop className="w-full h-full" preload="auto" muted="true" playsInline>
 							<source src="/assets/hero.mp4" type="video/mp4" />
 							<img
 								src="/assets/images/thumbnail.webp"
@@ -35,15 +27,7 @@ const Hero = () => {
 					</div>
 
 					<div className="container w-full h-full flex items-center justify-center xl:hidden">
-						<video
-							autoPlay
-							loop
-							poster="/assets/images/thumbnail.webp"
-							className="w-full h-full"
-							preload="auto"
-							muted="true"
-							playsInline
-						>
+						<video autoPlay loop className="w-full h-full" preload="auto" muted="true" playsInline>
 							<source src="/assets/hero.mp4" type="video/mp4" />
 							<img
 								src="/assets/images/thumbnail.webp"
