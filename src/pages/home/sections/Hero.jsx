@@ -8,7 +8,7 @@ const Hero = () => {
 				<AnotherLand />
 
 				<div className="relative flex flex-col">
-					<div className="max-w-full w-full h-full items-center justify-center hidden xl:flex">
+					<div className="container xl:max-w-full w-full h-full items-center justify-center flex">
 						<video
 							autoPlay
 							loop
@@ -19,32 +19,6 @@ const Hero = () => {
 							playsInline
 						>
 							<source src="/assets/hero.mp4" type="video/mp4" />
-							{/* <img
-								src="/assets/images/fallback.webp"
-								alt="image_01"
-								loading="lazy"
-								className="object-fill object-center md:-m-3"
-							/> */}
-						</video>
-					</div>
-
-					<div className="container w-full h-full flex items-center justify-center xl:hidden">
-						<video
-							autoPlay
-							loop
-							className="w-full h-full"
-							poster="/assets/images/fallback.webp"
-							preload="auto"
-							muted="true"
-							playsInline
-						>
-							<source src="/assets/hero.mp4" type="video/mp4" />
-							{/* <img
-								src="/assets/images/fallback.webp"
-								alt="image_02"
-								loading="lazy"
-								className="object-fill object-center md:-m-3"
-							/> */}
 						</video>
 					</div>
 				</div>
