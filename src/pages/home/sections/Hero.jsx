@@ -26,7 +26,7 @@ const Hero = () => {
 						>
 							<source src="/assets/hero.mp4" type="video/mp4" />
 							<img
-								src="/assets/gifs/hero.gif"
+								src="/assets/images/thumbnail.webp"
 								alt="image_01"
 								loading="lazy"
 								className="object-fill object-center md:-m-3"
@@ -39,12 +39,19 @@ const Hero = () => {
 							autoPlay
 							loop
 							poster="/assets/images/thumbnail.webp"
-							className="w-full"
-							src="/assets/hero.mp4"
-							type="video/mp4"
+							className="w-full h-full"
 							preload="auto"
 							muted="true"
-						></video>
+							playsInline
+						>
+							<source src="/assets/hero.mp4" type="video/mp4" />
+							<img
+								src="/assets/images/thumbnail.webp"
+								alt="image_01"
+								loading="lazy"
+								className="object-fill object-center md:-m-3"
+							/>
+						</video>
 					</div>
 					{/* <img
 						src="/assets/images/anotherland_image_01.png"
