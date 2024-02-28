@@ -22,6 +22,8 @@ const Hero = () => {
 								alt="image_01"
 								loading="lazy"
 								className="object-fill object-center md:-m-3"
+								width="1280"
+								height="720"
 							/>
 						</video>
 					</div>
