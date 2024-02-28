@@ -8,27 +8,27 @@
   font-size: 24px;
   line-height: 1;
   letter-spacing: 0;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "modern-gothic";
   src: url("/fonts/modern-gothic-regular.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Maison Neue";
   src: url("/fonts/FontsFree-Net-Maison-Neue-Mono.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Maison Neue Book";
   src: url("/fonts/FontsFree-Net-Maison-Neue-Book.ttf");
+  font-display: swap;
 }
 
-@font-face {
-  font-family: "Compacta D OT Light Compress";
-  src: url("/fonts/compactadot_lightcompress.woff");
-}
 
 
 @layer base {
