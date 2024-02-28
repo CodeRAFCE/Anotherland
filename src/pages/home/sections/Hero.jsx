@@ -14,13 +14,13 @@ const Hero = () => {
 							loop
 							className="w-full h-full"
 							preload="auto"
-							poster="/assets/images/thumbnail.webp"
+							poster="/assets/images/fallback.webp"
 							muted
 							playsInline
 						>
 							<source src="/assets/hero.mp4" type="video/mp4" />
 							<img
-								src="/assets/images/thumbnail.webp"
+								src="/assets/images/fallback.webp"
 								alt="image_01"
 								loading="lazy"
 								className="object-fill object-center md:-m-3"
@@ -33,15 +33,15 @@ const Hero = () => {
 							autoPlay
 							loop
 							className="w-full h-full"
-							poster="/assets/images/thumbnail.webp"
+							poster="/assets/images/fallback.webp"
 							preload="auto"
 							muted="true"
 							playsInline
 						>
 							<source src="/assets/hero.mp4" type="video/mp4" />
 							<img
-								src="/assets/images/thumbnail.webp"
-								alt="image_01"
+								src="/assets/images/fallback.webp"
+								alt="image_02"
 								loading="lazy"
 								className="object-fill object-center md:-m-3"
 							/>
