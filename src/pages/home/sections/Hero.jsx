@@ -20,7 +20,7 @@ const Hero = () => {
 						>
 							<source src="/assets/hero.mp4" type="video/mp4" />
 							<img
-								src=""
+								src="/assets/images/thumbnail.webp"
 								alt="image_01"
 								loading="lazy"
 								className="object-fill object-center md:-m-3"
@@ -40,7 +40,7 @@ const Hero = () => {
 						>
 							<source src="/assets/hero.mp4" type="video/mp4" />
 							<img
-								src=""
+								src="/assets/images/thumbnail.webp"
 								alt="image_01"
 								loading="lazy"
 								className="object-fill object-center md:-m-3"
