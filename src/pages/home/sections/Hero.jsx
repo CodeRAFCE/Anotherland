@@ -18,20 +18,27 @@ const Hero = () => {
 						<video
 							autoPlay
 							loop
-							poster="/assets/images/anotherland_image_01.webp"
+							poster="/assets/images/thumbnail.webp"
 							className="w-full h-full"
-							src="/assets/hero.mp4"
-							type="video/mp4"
 							preload="auto"
 							muted="true"
-						></video>
+							playsInline
+						>
+							<source src="/assets/hero.mp4" type="video/mp4" />
+							<img
+								src="/assets/gifs/hero.gif"
+								alt="image_01"
+								loading="lazy"
+								className="object-fill object-center md:-m-3"
+							/>
+						</video>
 					</div>
 
 					<div className="container w-full h-full flex items-center justify-center xl:hidden">
 						<video
 							autoPlay
 							loop
-							poster="/assets/images/anotherland_image_01.webp"
+							poster="/assets/images/thumbnail.webp"
 							className="w-full"
 							src="/assets/hero.mp4"
 							type="video/mp4"
