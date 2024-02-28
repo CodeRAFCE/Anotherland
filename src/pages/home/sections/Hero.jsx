@@ -19,12 +19,12 @@ const Hero = () => {
 							playsInline
 						>
 							<source src="/assets/hero.mp4" type="video/mp4" />
-							<img
+							{/* <img
 								src="/assets/images/fallback.webp"
 								alt="image_01"
 								loading="lazy"
 								className="object-fill object-center md:-m-3"
-							/>
+							/> */}
 						</video>
 					</div>
 
@@ -39,12 +39,12 @@ const Hero = () => {
 							playsInline
 						>
 							<source src="/assets/hero.mp4" type="video/mp4" />
-							<img
+							{/* <img
 								src="/assets/images/fallback.webp"
 								alt="image_02"
 								loading="lazy"
 								className="object-fill object-center md:-m-3"
-							/>
+							/> */}
 						</video>
 					</div>
 				</div>
